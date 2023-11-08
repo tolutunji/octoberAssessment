@@ -1,0 +1,89 @@
+html {
+    border: 0;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Orienta', sans-serif;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+
+/* the css code for the main content */
+
+.wrapper {
+    padding: 30px;
+    background-color: #837f7f;
+}
+
+.form-wrapper, .result-wrapper {
+    background-color: lightblue;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    /* max-width: 400px; */
+}
+
+.form-wrapper {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 0 20px;
+    color: #007bff;
+}
+
+label, textarea, input, button {
+    display: block;
+    margin-bottom: 15px;
+    width: 95%;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #997baa;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+input[type="text"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+input::placeholder,
+textarea::placeholder {
+    color: #777;
+}
+
+
+.result-wrapper textarea {
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    resize: none;
+}
